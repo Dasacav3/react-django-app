@@ -1,25 +1,25 @@
-# React + Django App
+# React + Django Application
 
-Esta aplicación fue desarrollada utilizando la libreria React.js para el frontend y el framework Django para el backend. Para la persistencia de los datos se utilizo una conexión a una base de datos PostgreSQL la cual se ejecuta desde un contenedor Docker.
+This application was developed using the React.js library for the frontend and the Django framework for the backend. For data persistence, a connection to a PostgreSQL database is used, which is executed from a Docker container.
 
-## Requerimientos
+##Requirements
 
 - Node.js (<= 16.x)
 - Python (>= 3.6)
-- Docker (>= 17.x) opcional
-- Django (>= 4.0)
+- Docker (>= 17.x) optional
+-Django (>= 4.0)
 
-## Instalación
+## Installation
 
-Para realizar la instalación de esta aplicación de manera local, se deben seguir los pasos que se describen a continuación:
+To install this application locally, follow the steps described below:
 
-1. Clonar el repositorio de la aplicación: `git clone`
-2. Ingresar a la carpeta de la aplicación: `cd react-django-app` y dentro de la misma ejecutar el comando `python manage.py migrate` para crear las tablas de la base de datos.
-3. Ahora ingresamos a la carpeta donde se encuentra en frontend de la app `cd ../reactapp` y ejecutamos el comando `npm install` para instalar las dependencias de la aplicación.
-4. Agregamos un archivo .env con la variable de entorno `REACT_APP_URL` con el valor de la URL del backend de la aplicación.
-5. Luego de esto ejecutamos el comando `npm run build` para generar los archivos estaticos de la aplicación.
-6. Por ultimo debemos ejecutar el comando `python manage.py runserver` para que el servidor de desarrollo inicie.
-7. Finalmente podemos ingresar y testear la aplicación en el navegador.
+1. Clone the application repository: `git clone`
+2. Enter the application folder: `cd react-django-app` and within the same run the command `python manage.py migrate` to create the database tables.
+3. Now we go to the folder where the app frontend is located `cd ../reactapp` and run the `npm install` command to install the app dependencies.
+4. We add an .env file with the environment variable `REACT_APP_URL` with the value of the application's backend URL.
+5. After this we execute the command `npm run build` to generate the static files of the application.
+6. Lastly, we need to run the `python manage.py runserver` command to get the development server started.
+7. Finally we can enter and test the application in the browser.
 
 
 ### __@author__ Dasacav3

@@ -2,7 +2,7 @@
 
 This application was developed using the React.js library for the frontend and the Django framework for the backend. For data persistence, a connection to a PostgreSQL database is used, which is executed from a Docker container.
 
-##Requirements
+## Requirements
 
 - Node.js (<= 16.x)
 - Python (>= 3.6)
